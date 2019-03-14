@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/texts_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:text="@string/leitura_atual" />
+
+                <Button
+                    android:id="@+id/buttonDataInicial"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonDataInicialClick"
+                    android:shadowColor="#888888"
+                    android:shadowDx="3"
+                    android:shadowDy="3"
+                    android:shadowRadius="3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/branco" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/texts_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center"
+                    android:text="@string/prox_leitura" />
+
+                <Button
+                    android:id="@+id/buttonDataFinal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonshape"
+                    android:onClick="buttonDataFinalClick"
+                    android:shadowColor="#888888"
+                    android:shadowDx="3"
+
+                    android:shadowDy="3"
+                    android:shadowRadius="3"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="@color/branco" />
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    style="@style/texts_views"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/media" />
+
+                <EditText
+                    android:id="@+id/editMediaConsumo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:hint="@string/expl_media"
+                    android:inputType="number"
+                    android:maxLength="4" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </TableRow>
+        </TableLayout>
+
+        <TextView
+            style="@style/texts_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/valor_atual" />
+
+        <br.senai.sp.cfp132.contagotas.view.NumberPickView
+            android:id="@+id/number_pick"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+
+        <CheckBox
+            android:id="@+id/cbnotificar"
+            style="@style/texts_views"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/agenda" />
+
+
+        <Button
+            android:id="@+id/buttonSalvarPeriodoMensal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonshape"
+            android:onClick="buttonSalvarClick"
+            android:shadowColor="#888888"
+            android:shadowDx="3"
+            android:shadowDy="3"
+            android:shadowRadius="3"
+            android:text="@string/criar_periodo"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/branco" />
+    </LinearLayout>
+
+</ScrollView>

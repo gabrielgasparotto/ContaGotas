@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="agenda"
+        android:summary="@string/agenda_sum"
+        android:title="@string/agenda_pref" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="esgoto"
+        android:summary="@string/esgoto_sum"
+        android:title="@string/esgoto" />
+
+    <ListPreference
+        android:defaultValue="2"
+        android:entries="@array/lista_classes"
+        android:entryValues="@array/val_classes"
+        android:key="classe"
+        android:summary="@string/classe_consumo_sum"
+        android:title="@string/classe_consumo" />
+
+    <EditTextPreference
+        android:defaultValue="0800119911"
+        android:inputType="phone"
+        android:key="telefone"
+        android:summary="@string/tel"
+        android:title="@string/telOperadora" />
+
+</PreferenceScreen>

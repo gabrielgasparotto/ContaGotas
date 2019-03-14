@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#9C27B0</color>
+    <color name="navigationBarColor">@color/colorPrimaryDark</color>
+    <color name="verde">#00CC00</color>
+    <color name="azul">#66b2ff</color>
+    <color name="windowBackground">#e5ffff</color>
+    <color name="branco">#fff</color>
+    <color name="hist_medicao">#99ccff</color>
+    <color name="vermelho">#dd0000</color>
+    <color name="amarelo">#ff9900</color>
+</resources>

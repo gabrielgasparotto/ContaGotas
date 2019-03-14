@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference 
+       		android:summary="@string/valor"
+            android:title="@string/valorMetro"
+            android:key="valor"
+            android:defaultValue="2" 
+            android:inputType="number"
+        />
+    <EditTextPreference 
+        android:summary="@string/tel"
+            android:title="@string/telOperadora"
+            android:key="telefone"
+            android:defaultValue="(11) 4002-8922" 
+            android:inputType="number|numberSigned"
+        />
+    
+    <ListPreference
+         android:entries="@array/dia_semana"
+         android:entryValues="@array/dia"
+         android:title="@string/dia"
+         android:key="dia_semana"
+         android:summary="@string/intervalo"
+        />
+    <ListPreference 
+        android:entries="@array/tempo_minutos"
+        android:entryValues="@array/tempo"
+        android:title="@string/tempo"
+        android:key="tempo_banho"
+        android:summary="@string/tempo_banho"
+        />
+
+</PreferenceScreen>

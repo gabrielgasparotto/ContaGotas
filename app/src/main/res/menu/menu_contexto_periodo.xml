@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="br.senai.sp.bookapp.CadastroAutor">
+
+    <item
+        android:id="@+id/exibir_medicoes"
+        android:title="@string/medicoes_periodo" />
+
+    <item
+        android:id="@+id/excluir_periodo"
+        android:title="@string/excluir" />
+
+
+</menu>

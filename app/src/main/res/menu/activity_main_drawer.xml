@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/periodos"
+            android:icon="@android:drawable/ic_menu_month"
+            android:title="@string/listar_periodo" />
+        <item
+            android:id="@+id/historico_leitura"
+            android:icon="@android:drawable/ic_menu_today"
+            android:title="@string/historico_medicoes" />
+        <item
+            android:id="@+id/efetuar_leitura"
+            android:icon="@drawable/icone_leitura"
+            android:title="@string/efetuar_leitura" />
+
+        <item
+            android:id="@+id/dicas"
+            android:icon="@android:drawable/ic_menu_info_details"
+            android:title="@string/dicas" />
+        <item
+            android:id="@+id/configuracoes"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+
+        <item
+            android:id="@+id/telefonar_cia"
+            android:icon="@android:drawable/ic_menu_call"
+            android:title="@string/telefonar_cia" />
+
+        <item
+            android:id="@+id/grafico"
+            android:icon="@android:drawable/ic_media_play"
+            android:title="@string/grafico" />
+
+    </group>
+
+</menu>

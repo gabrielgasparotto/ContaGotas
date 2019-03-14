@@ -1,0 +1,251 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            style="@style/texts_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/cozinha"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/dica_cozinha" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_cozinha_1" />
+
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_cozinha_2" />
+
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_cozinha_3" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_cozinha_4" />
+
+        <!-- BANHEIRO -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            style="@style/texts_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/economia_banheiro"
+            android:textColor="@color/colorPrimaryDark" />
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/dica_banheiro" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_banheiro_1" />
+
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_banheiro_2" />
+
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_banheiro_3" />
+
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_banheiro_4" />
+
+        <!-- ÁREA DE SERVIÇO -->
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            style="@style/texts_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/economia_roupas"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/dica_area" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_roupas_1" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_roupas_2" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_roupas_3" />
+
+        <!-- ÁREAS EXTERNAS -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorPrimaryDark" />
+
+
+        <TextView
+            style="@style/texts_views"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/economia_externa"
+            android:textColor="@color/colorPrimaryDark" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/dica_externa" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_externa1" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_externa2" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_externa3" />
+
+        <TextView
+            style="@style/text_dicas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4dp"
+            android:drawableLeft="@drawable/icone_gota"
+            android:drawablePadding="5dp"
+            android:gravity="left"
+            android:text="@string/dica_externa4" />
+
+    </LinearLayout>
+
+</ScrollView>

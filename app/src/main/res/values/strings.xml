@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">Conta Gotas</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="cadastrar_periodo">Cadastrar Periodo</string>
+    <string name="dicas">Dicas de economia</string>
+    <string name="dicas_gerais">Dicas Gerais</string>
+    <string name="efetuar_leitura">Efetuar leitura</string>
+    <string name="cronometro">Cronômetro</string>
+    <string name="pConsumo">Parâmetros de Consumo:</string>
+    <string name="quantidadePessoas">Quantidade de pessoas na casa:</string>
+    <string name="tempoBanho">Tempo medio no banho</string>
+    <string name="freqMedicao">Frequencia de medição individual</string>
+    <string name="criar_periodo">Criar Período</string>
+    <string name="Cronometro">Cronômetro</string>
+    <string name="ideal">Projetado</string>
+    <string name="realizado">Realizado</string>
+    <string name="indicador">Indicador</string>
+    <string name="media_diaria">Média diária</string>
+    <string name="consumo_table">Consumo</string>
+    <string name="telefonar_cia">Telefonar para SABESP</string>
+    <string name="iniciar">Iniciar</string>
+    <string name="periodo_mensal">Cadastro período Mensal</string>
+    <string name="leitura_atual">Leitura atual:</string>
+    <string name="prox_leitura">Próx. leitura:</string>
+    <string name="meta_consumo">Meta: </string>
+    <string name="m3">M³</string>
+    <string name="valor_atual">Valor atual do hidrômetro:</string>
+    <string name="valor_anterior">Valor anterior do hidrômetro</string>
+    <string name="telefone">Telefone da fornecedora:</string>
+    <string name="numero">(11)0000-0000</string>
+    <string name="periodo">Cadastro período</string>
+    <string name="calcular">Salvar</string>
+    <string name="valida_val_inic_periodo">O valor inicial do período não pode ser inferior ao valor da última medição do período anterior.</string>
+    <string name="gravar_leitura">Gravar leitura</string>
+    <string name="valorMetro">Preço do Metro Cubico</string>
+    <string name="valor">Inserir valor do metro cubico na sua região</string>
+    <string name="tel">Inserir telefone da empresa de água</string>
+    <string name="telOperadora">Telefone da Empresa</string>
+    <string name="valida_data_inicial">A data inicial não pode ser maior que a data final, nem maior que a data atual</string>
+    <string name="valida_data_final">A data final não pode ser menor que a data inicial</string>
+    <string name="valor_conta">Valor da conta</string>
+    <string name="escola_senai_inf">Escola SENAI de Informática &#169;2016</string>
+    <string name="grafico">Gráfico de consumo</string>
+    <string name="medicoes_periodo">Leituras</string>
+    <string name="historico_medicoes">Histórico de leituras</string>
+    <string name="excluir">Excluir</string>
+    <string name="listar_periodo">Histórico de Períodos</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="confirma_excl_periodo">Confirma exclusão do período?</string>
+    <string name="confirma_excl_medicao">Confirma exclusão da medição?</string>
+    <string name="erro_inserir_periodo">Ocorreu um erro ao inserir o período</string>
+    <string name="agenda_pref">Agenda</string>
+    <string name="agenda_sum">Define se ao criar o período, será criado um evento na agenda para a próxima medição</string>
+    <string name="valida_medicao">O valor observado não pode ser inferior ao valor da medição anterior</string>
+    <string name="valida_medicao_2">O valor observado não pode ser inferior ao valor inicial do período</string>
+    <string name="valida_media">Informe a média para contingência</string>
+    <string name="valor_observado">Valor observado:</string>
+    <string name="valor_inicial">Valor inicial do período:</string>
+    <string name="inicio">Início:</string>
+    <string name="fim">Fim:</string>
+    <string name="consumo">Consumo:</string>
+    <string name="metro3">m³</string>
+    <string name="esgoto">Esgoto</string>
+    <string name="esgoto_sum">Define se existe cobrança pelo tratamento de esgoto além do fornecimento de água</string>
+    <string name="data_medicao">Data:</string>
+    <string name="resultado">Preço estimado da conta:</string>
+    <string name="expl_meta">80% da  média</string>
+    <string name="expl_media">média p/ contingência(m³)</string>
+    <string name="media">Média:</string>
+    <string name="valor1">Valor</string>
+    <string name="tarifa">Tarifa</string>
+    <string name="faixa">Faixa</string>
+    <string name="qtd_m3">Qtd(m³)</string>
+    <string name="total">Total:</string>
+    <string name="bonus_multa">Bônus / Multa:</string>
+    <string name="faixa1">Até 10</string>
+    <string name="tar_fx1">20,64</string>
+    <string name="faixa2">10 a 20</string>
+    <string name="tar_fx2">3,23</string>
+    <string name="faixa3">20 a 30</string>
+    <string name="tar_fx3">8,07</string>
+    <string name="faixa4">30 a 50</string>
+    <string name="tar_fx4">8,07</string>
+    <string name="faixa5">Acima 50</string>
+    <string name="tar_fx5">8,89</string>
+    <string name="total_agua">Total Água:</string>
+    <string name="total_esgoto">Total Esgoto:</string>
+    <string name="classe_consumo">Classe</string>
+    <string name="classe_consumo_sum">Selecione a sua classe de consumo</string>
+
+
+    <string name="titulo_evento">Data da medição de água</string>
+    <string name="agenda">Inserir na agenda</string>
+
+
+    <string name="economia_externa">Economia em áreas externas</string>
+    <string name="dica_externa1">Varra a calçada em vez de utilizar a mangueira. A economia é de 279 litros de água a cada 15 minutos.</string>
+    <string name="dica_externa2">Molhe as plantas com regador quando o sol estiver mais baixo. Assim se evita que a água evapore.</string>
+    <string name="dica_externa3">Utilize baldes para lavar o carro.</string>
+    <string name="dica_externa4">Mantenha espaços permeáveis. Eles permitem a infiltração de água no solo.</string>
+
+
+    <string name="cozinha">Economia na cozinha</string>
+    <string name="dica_cozinha_1">Limpe bem os pratos e panelas e jogue os restos de alimentos no lixo.</string>
+    <string name="dica_cozinha_2">Mantenha a torneira fechada ao ensaboar a louça.</string>
+    <string name="dica_cozinha_3">Feche bem a torneira. Ao gotejar, o desperdício é de mais de 40 litros por dia.</string>
+    <string name="dica_cozinha_4">Ligue a máquina de lavar louça apenas quando sua capacidade estiver completa.</string>
+
+    <string name="economia_banheiro">Economia no Banheiro</string>
+    <string name="dica_banheiro_1">Feche a torneira ao escovar os dentes ou fazer a barba. Isso evita o desperdício de 10 a 20 litros de água.</string>
+    <string name="dica_banheiro_2">Tome banhos rápidos. Cada minuto a menos no banho equivale a uma economia de 3 a 6 litros de água.</string>
+    <string name="dica_banheiro_3">Regule as válvulas de descarga. Bacias convencionais com válvula e tempo de acionamento de 6 segundos consomem, em média, 10 a 14 litros de água. Com defeito, o gasto chega a 30 litros.</string>
+    <string name="dica_banheiro_4">Não jogue lixo no vaso sanitário.</string>
+
+    <string name="economia_roupas">Economia na área de serviço</string>
+    <string name="dica_roupas_1">Utilize a máquina de lavar no máximo 3 vezes por semana e apenas quando estiver cheia. O ciclo de lavagem completo de uma máquina de 5Kg consome 185 litros de água.</string>
+    <string name="dica_roupas_2">Ao lavar roupas no tanque, mantenha a torneira fechada enquanto ensaboa e esfrega. A economia a cada 15 minutos é de 270 litros.</string>
+    <string name="dica_roupas_3">Reaproveite a água da máquina para lavar áreas externas (quintais, sacadas, áreas de serviço, etc.).</string>
+
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+</resources>
+

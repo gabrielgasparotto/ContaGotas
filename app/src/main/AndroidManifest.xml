@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.senai.sp.cfp132.contagotas">
+
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.DicasActivity"
+            android:label="@string/dicas"></activity>
+        <activity
+            android:name=".activities.PrincipalActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".activities.MedicaoActivity"
+            android:label="@string/efetuar_leitura" />
+        <!--android:screenOrientation="portrait"-->
+        <activity
+            android:name=".activities.ConfigActivity"
+            android:label="@string/action_settings" />
+        <activity
+            android:name=".activities.PeriodoActivity"
+            android:label="@string/cadastrar_periodo" />
+        <activity
+            android:name=".activities.HistoricoPeriodoActitvity"
+            android:label="@string/listar_periodo" />
+        <activity
+            android:name=".activities.HistoricoMedicaoActivity"
+            android:label="@string/historico_medicoes" />
+
+        <activity
+            android:name=".activities.GraficoActivity"
+            android:label="@string/grafico"
+            android:screenOrientation="portrait"/>
+
+
+    </application>
+
+</manifest>
